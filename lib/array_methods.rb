@@ -7,6 +7,7 @@ def find_max_value(array)
   index = 0 
   
   def compare_values(array)
+    index = 0
     y = 0 
     array.length.times do
     array[index] >= array[y]
