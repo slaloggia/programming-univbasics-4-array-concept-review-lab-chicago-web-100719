@@ -13,6 +13,7 @@ def find_max_value(array)
     array[index] >= array[y]
     y += 1
     end
+  end
   
   while array[index] do
     compare_values(array)
