@@ -6,6 +6,7 @@ end
 def find_max_value(array)
   max = 0 
   array.length.times do |index|
+    puts index
     if index > max 
       max = index
     end
