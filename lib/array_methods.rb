@@ -7,8 +7,8 @@ def find_max_value(array)
   max = array[0]
   array.length.times { |i|
   puts array[i] 
-  if i > max
-    max = i
+  if array[i] > max
+    max = array[i]
   }
   
   p max
