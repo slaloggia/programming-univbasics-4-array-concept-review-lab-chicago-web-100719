@@ -13,7 +13,10 @@ end
 def find_max_value(array)
   index = 0 
   
-  
+  while array[index] do
+    compare_values(array)
+    index += 1
+  end
   
 end
 
