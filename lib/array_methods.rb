@@ -7,7 +7,7 @@ def find_max_value(array)
   
   max = 0 
    
-  for array.each do |index|
+  array.each do |index|
     if array[index] > max do
       max = array[index]
     end
