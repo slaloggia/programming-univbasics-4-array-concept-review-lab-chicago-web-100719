@@ -15,7 +15,12 @@ def find_max_value(array)
   
   while array[index] do
     compare_values(array)
-    index += 1
+    if true 
+      puts array[index]
+      
+    else
+      index += 1
+      
   end
   
 end
