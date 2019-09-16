@@ -20,11 +20,11 @@ def find_min_value(array)
   min = array[0]
   array.length.times { |i|
   puts array[i] 
-  if array[i] < max
-    max = array[i]
+  if array[i] < min
+    min = array[i]
   end
   }
   
-  p max
+  p min
   
 end
