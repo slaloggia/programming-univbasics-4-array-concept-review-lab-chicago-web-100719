@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  # would acutally use p array.max but that's clearly not what you want
+  
   max = 0 
    
   for array.each do |index|
