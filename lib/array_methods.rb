@@ -9,6 +9,7 @@ def find_max_value(array)
   puts array[i] 
   if array[i] > max
     max = array[i]
+  end
   }
   
   p max
